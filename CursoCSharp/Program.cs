@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 
 namespace CursoCSharp
 {
@@ -6,7 +6,12 @@ namespace CursoCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Worl!");
-        }
+            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+                // Fundamentos
+                { "Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar },
+                { "Comentários - Fundamentos", Comentarios.Executar },
+
+            };
+
     }
 }
